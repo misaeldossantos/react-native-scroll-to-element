@@ -1,6 +1,8 @@
 
 # react-native-scroll-to-element
 
+[![npm version](https://badge.fury.io/js/react-native-scroll-to-element.svg)](https://badge.fury.io/js/react-native-scroll-to-element)
+
 Focus View elements within the ScrollView. Similar to DOMElement.scrollIntoView() for web. Compatible with Expo
 
 ## Built with
