@@ -24,19 +24,19 @@ const SpecialView: React.FC = ({ id, focused, children, ...props }, self) => {
     []
   );
 
-  const scrollToElement = React.useCallback(({ animated = true } = {}) => {
+  const focus = React.useCallback(({ animated = true } = {}) => {
     getRelativeLayout(({ y }) => {
       context.get().ref.scrollTo({ y, animated });
     });
   }, []);
 
   React.useImperativeHandle(self, () => ({
-    scrollToElement,
+    focus,
   }));
 
   useEffect(() => {
     if (focused) {
-      scrollToElement();
+      focus();
     }
   }, [focused]);
 

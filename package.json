@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "lib/index.js",
+  "types": "./lib/types/index.d.ts",
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "build": "webpack .",
     "test": "echo \"Error: no test specified\" && exit 1"
