@@ -1,11 +1,12 @@
 {
   "name": "react-native-scroll-to-element",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "lib/index.js",
   "types": "./lib/types/index.d.ts",
   "files": [
-    "lib"
+    "lib",
+    "assets"
   ],
   "scripts": {
     "build": "webpack .",
@@ -17,6 +18,10 @@
   "dependencies": {
     "lodash": "^4.17.21",
     "mobx": "^6.1.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/misaeldossantos/react-native-scroll-to-element.git"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
