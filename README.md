@@ -13,7 +13,7 @@ Focus View elements within the ScrollView. Similar to DOMElement.scrollIntoView(
 
 This library allows to get focus of an element, any direct or indirect child element of ScrollView.
 
-<img align="center" alt="preview" height="400px" src="./assets/demo.gif" />
+<img align="center" alt="preview" height="600px" src="./assets/demo.gif" />
 
 
 ## Motivation
