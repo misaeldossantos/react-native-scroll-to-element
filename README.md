@@ -17,6 +17,9 @@ This library allows to get focus of an element, any direct or indirect child ele
 
 <img align="center" alt="preview" height="600px" src="./assets/demo.gif" />
 
+<a href="https://snack.expo.io/@misaelbdsantos/b6709c">
+  Run example on snack
+</a>
 
 ## Motivation
 
